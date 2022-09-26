@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://static.wixstatic.com/media/f855ef_b84ee1ccc09943c5ab11e961a6a910b5~mv2.jpg/v1/fill/w_1910,h_1053,al_c,q_90/f855ef_b84ee1ccc09943c5ab11e961a6a910b5~mv2.jpg");
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#all {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#images{
+    position: relative;
+    margin: 140px 0 70px;
+}
+
+#finalInfo {
+    text-align: center;
+}
+
+#stawka {
+    width: 100%;
+}
+
+
+button, input {
+    float: left;
+    background-color: #989fa1;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 20px 15px;
+    text-transform: uppercase;
+    border: none;
+}
+
+input {
+    width: 30%;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 65%;
+    background-color: #313A3D;
+}
+
+.stats {
+    background-color: #313A3D;
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 20px 15px;
+}
+
+.cards {
+    padding: 50px 90px;
+    margin: 20px;
+    background-color: grey;
+}
+
+
+#card1 {
+    margin-left: 0;
+}
+
+#card3 {
+    margin-right: 0;
+}
